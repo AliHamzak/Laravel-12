@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-12 col-md-8">
             <div class="card">
                 <div class="card-header">User Details</div>
 
@@ -18,7 +18,7 @@
                         <strong>Created At:</strong> {{ $user->created_at->format('d M Y') }}
                     </div>
                     
-                    <a href="{{ route('users.index') }}" class="btn btn-secondary">Back to Users</a>
+                    <a href="{{ route('users.index') }}" class="btn btn-secondary w-100 w-md-auto">Back to Users</a>
                 </div>
             </div>
         </div>
