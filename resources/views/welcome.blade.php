@@ -35,7 +35,7 @@
                 </a>
                 <a href="#" class="menu-item">
                     <i class="fa-solid fa-chart-simple"></i>
-                    <span>Analytics</span>
+                    <span><a href="{{ route('users.index') }}">Users</a></span>
                 </a>
                 <a href="#" class="menu-item">
                     <i class="fa-solid fa-user-group"></i>
