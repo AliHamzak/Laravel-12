@@ -33,9 +33,9 @@
                     <i class="fa-solid fa-house"></i>
                     <span>Dashboard</span>
                 </a>
-                <a href="#" class="menu-item">
+                <a href="{{ route('users.index') }}" class="menu-item">
                     <i class="fa-solid fa-chart-simple"></i>
-                    <span><a href="{{ route('users.index') }}">Users</a></span>
+                    <span>Users</span>
                 </a>
                 <a href="#" class="menu-item">
                     <i class="fa-solid fa-user-group"></i>
